@@ -18,9 +18,9 @@ name: Snyk Security
 
 on:
   push:
-    branches: ["master" ]
+    branches: ["snyk_feature" ]
   pull_request:
-    branches: ["master"]
+    branches: ["snyk_feature"]
 
 permissions:
   contents: read
